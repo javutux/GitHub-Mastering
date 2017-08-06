@@ -19,8 +19,11 @@ http://git-scm.com/download
 Then, compile and install:
 
 $ tar -zxf git-1.7.2.2.tar.gz
+
 $ cd git-1.7.2.2
+
 $ make prefix=/usr/local all
+
 $ sudo make prefix=/usr/local install
  
 After this is done, you can also get Git via Git itself for updates:
