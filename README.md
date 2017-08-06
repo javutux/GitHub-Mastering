@@ -8,10 +8,12 @@ It is also the case that many Linux distributions contain very old packages; so 
 
 To install Git, you need to have the following libraries that Git depends on: curl, zlib, openssl, expat, and libiconv. For example, if you’re on a system that has yum (such as Fedora) or apt-get (such as a Debian based system), you can use one of these commands to install all of the dependencies:
 
-# yum install curl-devel expat-devel gettext-devel \
+$ yum install curl-devel expat-devel gettext-devel \
+
   openssl-devel zlib-devel
 
-# apt-get install libcurl4-gnutls-dev libexpat1-dev gettext \
+$ apt-get install libcurl4-gnutls-dev libexpat1-dev gettext \
+
   libz-dev libssl-dev
   
 When you have all the necessary dependencies, you can go ahead and grab the latest snapshot from the Git web site:
