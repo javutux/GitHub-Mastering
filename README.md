@@ -13,7 +13,8 @@ a name git config --global user.name "My Name"
 an email git config --global user.email "me@mail.org"
 ```
 
-```bash git init
+```bash
+git init
 ```
 just created a hidden repository to contain internal data that we’ll describe later and that’s it, we’ve got a git repository!
  
