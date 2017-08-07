@@ -10,23 +10,27 @@ To install Git, you need to have the following libraries that Git depends on: cu
 
 ```bash
 $ yum install curl-devel expat-devel gettext-devel \ openssl-devel zlib-devel
-
 $ apt-get install libcurl4-gnutls-dev libexpat1-dev gettext \ libz-dev libssl-dev
-  
+```bash
+
 When you have all the necessary dependencies, you can go ahead and grab the latest snapshot from the Git web site:
 
 http://git-scm.com/download
 
 Then, compile and install:
 
+```bash
 $ tar -zxf git-1.7.2.2.tar.gz
 
 $ cd git-1.7.2.2
+```bash
 
-$ make prefix=/usr/local all
+make prefix=/usr/local all
 
-$ sudo make prefix=/usr/local install
+sudo make prefix=/usr/local install
  
 After this is done, you can also get Git via Git itself for updates:
 
+```bash
 $ git clone git://git.kernel.org/pub/scm/git/git.git
+```bash
