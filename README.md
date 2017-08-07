@@ -94,3 +94,19 @@ After this is done, you can also get Git via Git itself for updates:
 ```bash
 $ git clone git://git.kernel.org/pub/scm/git/git.git
 ```
+
+### Useful comands to change files
+
+ ```bash 
+ git add  
+ ```
+to add a new file or some modification in an already tracked file; the --patch option allows to select hunks only
+
+```bash
+git rm 
+```
+to remove a file from tracking
+
+```bash
+git mv
+ ``` to rename a file
