@@ -13,10 +13,37 @@ a name git config --global user.name "My Name"
 an email git config --global user.email "me@mail.org"
 ```
 
+## Git Initialisation
+
+ 
+```bash
+ $ git init $HOME/bonjour
+Initialized empty Git repository in /Users/marc/bonjour/.git/
+
+$ cd $HOME/bonjour
+
+$ tree -a -I hooks
+.
+└── .git
+    ├── HEAD
+    ├── config
+    ├── description
+    ├── info
+    │   └── exclude
+    ├── objects
+    │   ├── info
+    │   └── pack
+    └── refs
+        ├── heads
+        └── tags
+ ```
+ 
 ```bash
 git init
 ```
 just created a hidden repository to contain internal data.
+ 
+ 
  
 After this is done, you can also get Git via Git itself for updates:
 
