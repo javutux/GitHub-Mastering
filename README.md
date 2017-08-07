@@ -6,7 +6,7 @@ Before running git commands, we need:
 
 git installed (preferably ≥ 2.0.0 as the default behavior for some commands has been greatly improved in late versions; see git 2.0.0 changelog)
 
-### A git user i.e.:
+#### A git user i.e.:
 
 ```bash
 a name git config --global user.name "My Name"
