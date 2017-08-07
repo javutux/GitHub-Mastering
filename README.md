@@ -1,19 +1,19 @@
-# GitHub-Mastering
+## GitHub-Mastering
 
-## Setup
+### Setup
 
 Before running git commands, we need:
 
 git installed (preferably ≥ 2.0.0 as the default behavior for some commands has been greatly improved in late versions; see git 2.0.0 changelog)
 
-### a git user i.e.:
+### A git user i.e.:
 
 ```bash
 a name git config --global user.name "My Name"
 an email git config --global user.email "me@mail.org"
 ```
 
-## Git Initialisation
+### Git Initialisation
 
  
 ```bash
@@ -37,6 +37,50 @@ $ tree -a -I hooks
         ├── heads
         └── tags
  ```
+ 
+ ### First commit
+ 
+```bash
+ $ git status
+On branch master
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+
+$ echo "A dummy app listing ways to just say 'hello'" > README.md
+
+$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	README.md
+
+$ git add README.md
+
+$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+  new file:   README.md
+
+$ git commit -m "First commit"
+[master (root-commit) 45de2f7] First commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+$ git status
+On branch master
+nothing to commit, working directory clean
+```
  
 ```bash
 git init
