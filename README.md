@@ -100,7 +100,7 @@ $ git clone git://git.kernel.org/pub/scm/git/git.git
  ```bash 
  git add  
  ```
-to add a new file or some modification in an already tracked file; the --patch option allows to select hunks only
+to add a new file or some modification in an already tracked file; the ```bash --patch ``` option allows to select hunks only
 
 ```bash
 git rm 
