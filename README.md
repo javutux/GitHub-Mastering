@@ -81,6 +81,8 @@ $ git status
 On branch master
 nothing to commit, working directory clean
 ```
+
+Note that at each step, the ```bash git status ```command provides helpful overview of the current repository state and a contextual help.
  
 ```bash
 git init
