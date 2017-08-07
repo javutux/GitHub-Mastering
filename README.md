@@ -112,3 +112,7 @@ git rm
 git mv
 ``` 
 
+git allows to amend the last commit using 
+```bash
+git commit --amend
+``` 
