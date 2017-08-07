@@ -38,6 +38,11 @@ $ tree -a -I hooks
         └── tags
  ```
  
+ ```bash 
+ git init 
+ ``` 
+ Creates a hidden repository to contain internal data.
+ 
  ### First commit
  
 ```bash
@@ -83,14 +88,7 @@ nothing to commit, working directory clean
 ```
 
 Note that at each step, the ```bash git status ```command provides helpful overview of the current repository state and a contextual help.
- 
-```bash
-git init
-```
-just created a hidden repository to contain internal data.
- 
- 
- 
+
 After this is done, you can also get Git via Git itself for updates:
 
 ```bash
